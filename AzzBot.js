@@ -652,20 +652,48 @@ delete this.suit[id]
 }
 break
 	case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-zets.sendMessage(m.chat, { image: { url: 'https://i.postimg.cc/7ZWmBrMB/IMG-20220819-WA0027.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⌕ 15k Per Group via E-Walet 1 Month\n⌕ 20k via pulsa 1 Month\n\n Premium Price Bot\n⌕ 10k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6281252848955 (Owner)\n\nDonate For Me : \n\n⌕ Paypal : https://www.paypal.me/Rifando35\n⌕ Saweria : https://saweria.co/Nando35` }, { quoted: m })
+zets.sendMessage(m.chat, { image: { url: 'https://i.postimg.cc/7ZWmBrMB/IMG-20220819-WA0027.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n ` }, { quoted: m })
 }
 break
-case 'sc':  case 'sourcecode': {
+case 'forminfo':  case 'form': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
-	anu = `
-⌕ Script : https://github.com/AzzBott679
+	anu = `getmsg rule ━━━༺ WELCOME ༻━━━
 
-Jangan lupa kasih bintang.
-⌕ Donate : 081511480762 (Dana / gopay)
-⌕ Saweria : Kaga ada
-⌕ Paypal : kaga ada
+.｡.:✧ To Specta Vermelion ✧:.｡.
 
-Dont Forget Donate
+Nama              :
+
+IGN                  :
+
+Umur               :
+
+Gender            :
+
+Asal                 :
+
+Job andalan   :
+
+Buff                 :
+
+Sudah Berapa Lama Main Toram :
+
+━━━༺ Thank You ༻━━━
+
+    ¦         ¦         ¦         ¦          ¦
+
+    ¦         ¦         ¦         ¦         ❀
+
+    ¦         ¦         ¦        ❀         
+
+    ¦         ¦        ❁            
+
+    ¦        ❀             
+
+   ❀
+   
+   Form diatas cukup SALIN>ISI>KIRIM Tidak perlu di tulis ulang
+   Form Diatas Diisi Dengan Serius Demi Kenyamanan Bersama.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 `
 	let btn = [{
 urlButton: {
@@ -677,13 +705,216 @@ zets.send5ButImg(m.chat, anu, botname, global.sc, btn)
  }
 break
 
-case 'tqto': case 'partner': case 'credits': {
-	anu = `Terima kasih
+case 'buff': case 'buffland': case 'buffoi': {
+	anu = `🍙🍘 Food Buff Vermelion 🍘🍙
 
-Yahya Ganzz
-⌕ https://github.com/AzzBott679
-⌕ https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+Update setiap minggu awal di bulan baru
+Jika buffland anda naik level harap hubungi admin
 
+Buff ada setiap hari, jika ada yg tidak masak atau roomnya kosong mohon dimaklumi mungkin karena kurang bahan atau sibuk
+( Minimal buff Lv 4 untuk masuk list ini )
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🍜 Attack MP Recovery
+• Lolita Pedofily : LV 9
+• Cyliaー : LV 9
+• Mikihiko : LV 9
+• Nezugi : LV 9
+• Myth•ice : LV 9
+• Xalevis : LV 8
+• Putri101 : LV 8
+• Sanemi : LV 8
+• ZaSha : LV 8
+• hy : LV 8
+• ×可愛いKangxi' : LV 8
+• Guenne : LV 7
+• Mogumax : LV 7
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🍳 Max HP 
+• RaY_ : LV 10
+• _Lichira : LV 9
+• D.Legion : LV 9
+• IceMochi : LV 8
+• Hibarae : LV 8
+• YosiJR : LV 7
+• Nixie : LV 7
+• yumi : LV 7
+• Jinsho : LV 7
+• Ambiyah : LV 6
+• Aryandi1 : LV 6
+• Sirano : LV 6
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🍛 Max MP
+• DARK LEGION : LV 9
+• YamiZX : LV 8
+• LexZero : LV 8
+• Natachan : LV 8
+• Macruz° : LV 8
+• Day zero : LV 8
+• RythRoid : LV 8
+• vennusa : LV 8
+• Tethra : LV 7
+• ANELA : LV 7
+• FinsenKun : LV 7
+• ° saber° : LV 5
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🍕 Weapon Attack 
+• olea : LV 9 
+• (Yusha) : LV 9
+• Huegeng : LV 8
+• <Shiro> : LV 8
+• Oyika : LV 8 
+• Ash lynx : LV 7
+• Cyzarine : LV 7
+• NAO : LV 6
+• D I N : LV 5
+• Yuki Lan : LV 7
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🍄 +Aggro 
+• Nirvana : LV 9
+• Huan Mei : LV 7
+• Ral : LV 6
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🍄 -Aggro
+• Huan Mei : LV 5 
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🍙 STR 
+• -Rinne- : LV 8
+• Liena : LV 8
+• D Arcy : LV 6
+• bekok989 : LV 6
+• -Yukino™ : LV 7
+• zethy : LV 6
+• ifrit : LV 5
+• •Bylia : LV 5
+• Noir : LV 4
+• X_N  : LV 6
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🍙 AGI 
+• Agitomanda : LV 9
+• SinsICZ : LV 7
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🍙 VIT
+• Leonhard : LV 4
+• Albe : LV 8
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🍙 DEX 
+• Serenia : LV 9
+• Cacuriy : LV 6
+• P7.  : LV 6
+• Aimi : LV 7
+• Randgrid : LV 5
+• AscaRev : LV 5
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🍙 INT
+• Lushiren : LV 9
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🐙 Critical rate 
+• Fadil☆XD : LV 9
+• Eifan : LV 9
+• ●︿●Kanrojixo : LV 9
+• NicoDxA : LV 9
+• Caster : LV 9
+• Tohka : LV 8
+• "Tel"B E K A : LV 9
+• AssaLaM : LV 8
+• Vynne : LV 8
+• NIU : LV 8
+• Vynne. : LV 8
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🍖 Magic Resistance
+• Michi : LV 6
+• • Rietta • : LV 5
+• IQ° : LV 4 
+• Agitomanda : LV 5
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🦐 Physical Resistance
+• Serenia : LV 8
+• Vias : LV 7
+• Albe : LV 7
+• SinsICZ : LV 6 
+• D.Legion : LV 5
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+🥞 Fractional
+•LexZero : LV 8
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+Update date : 1 Juli 2022
+☀️🌙 Damage to Element 🌙☀️
+
+Buff DTE ada setiap hari Rabu atau Sabtu atau mungkin keduanya
+
+(Minimal buff Lv 3 untuk masuk list ini)
+
+︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶꒦꒷︶
+
+💫 DTE Normal 💫
+
+• YamiZX : LV 5
+
+• Nezugi : LV 5
+
+☀️ DTE Light ☀️
+
+• Eifan : LV 4
+
+🌙 DTE Dark 🌙
+
+• -Yukino™ : 7
+
+💧 DTE Water 💧
+
+• 
+
+🔥 DTE Fire 🔥
+
+• ANELA : LV 5
+
+• Tethra : LV 3
+
+🌱 DTE Earth 🌱
+
+• Miku×01 : LV 6
+
+• ●︿●Kanrojixo : LV 6
+
+• Nirvana : LV 5
+
+• Cyzarine : LV 3
+
+🌪️ DTE Wind 🌪️
+
+•
 `
 	let btn = [{
 urlButton: {
